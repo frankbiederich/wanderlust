@@ -163,7 +163,7 @@ main input:hover {
 }
 
 main .section {
-  padding: 0px 16px;
+  padding: 6px 16px;
 }
 
 main pre {
@@ -206,7 +206,7 @@ main img {
 
 @media (min-width: 600px) {
   main .section {
-    padding: 0px 32px;
+    padding: 6px 32px;
   }  
 }
 
