@@ -27,7 +27,7 @@ main div.gallery-wall::after {
 }
 
 main div.gallery .thumb {
-  height: 200px;
+  height: 300px;
   cursor: pointer;
   position: relative;
   flex: 1 1 auto;
