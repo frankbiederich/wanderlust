@@ -1,0 +1,53 @@
+
+main .gallery-wrapper {
+  height: unset;
+  background-attachment: fixed;
+}
+
+main div.gallery {
+ font-family: unset;
+}
+
+
+main div.gallery-wall {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+main div.gallery-wall::after {
+  content: "";
+  flex-grow: 999;
+}
+
+.hidden {
+  display: none !important;
+}
+
+main div.gallery .thumb {
+  height: 300px;
+  cursor: pointer;
+  position: relative;
+  flex: 1 1 auto;
+}
+
+main div.gallery .thumb > img {
+    object-fit: cover;
+    min-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.thumb:focus,
+.thumb:active {
+  outline: 2px solid rgb(var(--link-color));
+}
+
+main div.epilog,
+footer {
+  font-style: italic;
+  text-align: center;
+}
