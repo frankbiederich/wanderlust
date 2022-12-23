@@ -65,8 +65,8 @@ h4, h5, h6 {
   font-family: var(--heading-font-family);
   font-weight: 600;
   line-height: 1.25;
-  margin-top: 0.5em;
-  margin-bottom: .25em;
+  margin-top: 0em;
+  margin-bottom: 0em;
   scroll-margin: calc(var(--nav-height) + 1em);
 }
 
