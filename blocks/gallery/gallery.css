@@ -32,42 +32,34 @@ main div.gallery .thumb {
   position: relative;
   flex: 1 1 auto;
 }
-/*
+
 @media only screen and (min-width: 1024px) and (max-width: 1199px){
+	/* e.g. tablet landscape */
 	main div.gallery .thumb {
 	  height: 300px;
 	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px){
+	/* e.g. tablet portrait */
 	main div.gallery .thumb {
 	  height: 200px;
 	}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px){
-	main div.gallery .thumb {
-	  height: 100px;
-	}
-}
-
-@media only screen and (min-width: 0px) and (max-width: 479px){
-	main div.gallery .thumb {
-	  height: 50px;
-	}
-}
-*/
-@media only screen and (max-device-width: 480px) {
+	/* e.g. phone landscape */
 	main div.gallery .thumb {
 	  height: 150px;
 	}
 }
 
-@media only screen and (device-width: 768px) {
+@media only screen and (min-width: 0px) and (max-width: 479px){
+	/* e.g. phone portrait */
 	main div.gallery .thumb {
-	  height: 225px;
+	  height: 100px;
 	}
-	}
+}
 
 main div.gallery .thumb > img {
     object-fit: cover;
