@@ -33,6 +33,20 @@ main div.gallery .thumb {
   flex: 1 1 auto;
 }
 
+@media only screen and (max-device-width: 480px) {
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+	main div.gallery .thumb {
+	  height: 100px;
+	}
+}
+
+@media only screen and (device-width: 768px) {
+       /* default iPad screens */
+	main div.gallery .thumb {
+	  height: 100px;
+	}
+}
+
 main div.gallery .thumb > img {
     object-fit: cover;
     min-width: 100%;
