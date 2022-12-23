@@ -43,7 +43,7 @@ main div.gallery .thumb {
 @media only screen and (device-width: 768px) {
        /* default iPad screens */
 	main div.gallery .thumb {
-	  height: 100px;
+	  height: 200px;
 	}
 }
 
