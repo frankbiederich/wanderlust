@@ -7,10 +7,14 @@
     width: 100%;
 }
 
+.columns > div > div {
+    margin-top: 32px;
+}
+
 @media (min-width: 900px) {
     .columns > div {
         display: flex;
-        align-items: center;
+        align-items: top;
         flex-direction: unset;
     }
 
