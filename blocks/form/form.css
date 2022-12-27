@@ -27,6 +27,7 @@ main .form select {
   max-width: 50rem;
   box-sizing: border-box;
   margin-top: 4px;
+  font-size: var(--type-heading-m-size);
 }
 
 main .form textarea {
