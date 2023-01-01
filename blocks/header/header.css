@@ -261,7 +261,7 @@ header nav[aria-expanded='true'] .nav-tools li {
 
 @media (prefers-color-scheme: dark) {
   /* CSS Code wenn Dark Mode aktiv */ 
-  header nav .nav-sections > ul > li[aria-expanded='true'] ul {
+  header nav .nav-sections > ul > li > ul {
   /* colors */
   background-color: #1c1c1c;
   }
