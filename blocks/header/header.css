@@ -15,6 +15,16 @@ header nav {
   font-family: var(--body-font-family);
 }
 
+
+@media (prefers-color-scheme: dark) {
+  /* CSS Code wenn Dark Mode aktiv */ 
+ :root {
+  /* colors */
+  --background-color: #1c1c1c;
+  --text-color: #fff;
+  }
+}
+
 header nav a:any-link {
   color: currentcolor;
 }
