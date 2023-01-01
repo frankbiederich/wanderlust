@@ -263,7 +263,6 @@ header nav[aria-expanded='true'] .nav-tools li {
   /* CSS Code wenn Dark Mode aktiv */ 
   header nav .nav-drop {
   /* colors */
-  --background-color: #1c1c1c;
-  --text-color: #fff;
+  background-color: #1c1c1c;
   }
 }
