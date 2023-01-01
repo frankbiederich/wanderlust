@@ -15,16 +15,6 @@ header nav {
   font-family: var(--body-font-family);
 }
 
-
-@media (prefers-color-scheme: dark) {
-  /* CSS Code wenn Dark Mode aktiv */ 
- :root {
-  /* colors */
-  --background-color: #1c1c1c;
-  --text-color: #fff;
-  }
-}
-
 header nav a:any-link {
   color: currentcolor;
 }
@@ -166,7 +156,7 @@ header nav[aria-expanded='true'] .nav-tools li {
 }
 
 /* desktop nav styles */
-@media (min-width: 1000px) {
+@media (min-width: 750px) {
   header nav {
     display: flex;
     justify-content: space-between;
@@ -266,5 +256,14 @@ header nav[aria-expanded='true'] .nav-tools li {
     left: 0;
     padding: 16px;
     box-shadow: 0 0 5px var(text-color);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  /* CSS Code wenn Dark Mode aktiv */ 
+  header nav .nav-drop {
+  /* colors */
+  --background-color: #1c1c1c;
+  --text-color: #fff;
   }
 }
