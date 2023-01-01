@@ -258,11 +258,3 @@ header nav[aria-expanded='true'] .nav-tools li {
     box-shadow: 0 0 5px var(text-color);
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  /* CSS Code wenn Dark Mode aktiv */ 
-  header nav .nav-sections > ul > li > ul {
-  /* colors */
-  background-color: #1c1c1c;
-  }
-}
