@@ -42,19 +42,6 @@
 
 }
 
-@media (prefers-color-scheme: dark) {
-  /* CSS Code wenn Dark Mode aktiv */ 
- :root {
-  /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
-  --background-color: #1c1c1c;
-  --overlay-background-color: #eee;
-  --highlight-background-color: #ccc;
-  --text-color: #fff;
-  }
-}
-
 body {
   font-size: var(--body-font-size-m);
   margin: 0;
@@ -239,6 +226,23 @@ main img {
   .section > div {
     max-width: 1200px;
     margin: auto;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  /* CSS Code wenn Dark Mode aktiv */ 
+ :root {
+  /* colors */
+  --link-color: #035fe6;
+  --link-hover-color: #136ff6;
+  --background-color: #1c1c1c;
+  --overlay-background-color: #eee;
+  --highlight-background-color: #ccc;
+  --text-color: #fff;
+  }
+  
+  img {
+    filter: brightness(.8) contrast(1.2);
   }
 }
 
