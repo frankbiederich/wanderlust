@@ -236,8 +236,8 @@ main img {
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
   --background-color: #1c1c1c;
-  --overlay-background-color: #222;
-  --highlight-background-color: #222;
+  --overlay-background-color: #333;
+  --highlight-background-color: #333;
   --text-color: #fff;
   }
   
